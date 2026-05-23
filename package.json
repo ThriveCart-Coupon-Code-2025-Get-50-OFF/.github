@@ -1,0 +1,14 @@
+{
+  "name": "open-webhook-inbox",
+  "version": "1.0.0",
+  "description": "Simple open source webhook inbox tool",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  }
+}
